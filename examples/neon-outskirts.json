@@ -1,0 +1,45 @@
+{
+  "format": "roboheckers-level",
+  "version": 1,
+  "name": "Neon Outskirts",
+  "chapter": 1,
+  "level": 1,
+  "objects": [
+    {
+      "type": "platform",
+      "x": 390,
+      "y": 380,
+      "w": 120,
+      "h": 16
+    },
+    {
+      "type": "cell",
+      "x": 300,
+      "y": 365,
+      "r": 10
+    },
+    {
+      "type": "enemy",
+      "x": 650,
+      "y": 413,
+      "hp": 45,
+      "maxHp": 45,
+      "kind": "drone"
+    },
+    {
+      "type": "npc",
+      "x": 180,
+      "y": 407,
+      "name": "NOVA",
+      "talk": "NOVA: The reactor signal is ahead. Collect energy cells and find the guardian."
+    },
+    {
+      "type": "boss",
+      "x": 3100,
+      "y": 383,
+      "hp": 152,
+      "maxHp": 152,
+      "name": "LEVEL GUARDIAN"
+    }
+  ]
+}
